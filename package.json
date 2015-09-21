@@ -1,0 +1,25 @@
+{
+	"name": "angular-2-typescript-boilerplate",
+	"version": "1.0.0",
+	"description": "This is a boilerplate for angular-2 and typescript.",
+	"main": "index.js",
+	"dependencies": {},
+	"devDependencies": {
+		"tsd": "^0.6.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/electricessence/Angular-2-TypeScript-Boilerplate.git"
+	},
+	"keywords": [
+		"angular",
+		"angular2",
+		"typescript"
+	],
+	"author": "electricessence",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/electricessence/Angular-2-TypeScript-Boilerplate/issues"
+	},
+	"homepage": "https://github.com/electricessence/Angular-2-TypeScript-Boilerplate#readme"
+}
