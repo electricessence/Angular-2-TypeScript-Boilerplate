@@ -1,6 +1,7 @@
 /// <reference path="../typings/angular2/angular2.d.ts" />
 
 import {Component, View, bootstrap} from 'angular2/angular2';
+import UserProfile from 'UserProfile';
 
 // Annotation section
 @Component(
@@ -10,18 +11,22 @@ import {Component, View, bootstrap} from 'angular2/angular2';
 )
 @View(
 	{
-		template: '<h1>Hello {{ name }}.  How are you.</h1>'
+		template: '<h1>Hello {{ user.firstName }} {{ user.lastName }}.  How are you.</h1>'
 	}
 )
+
 	// Component controller
-class MyAppComponent
+class MyApplication
 {
-	name:string;
+	user:UserProfile;
 
 	constructor()
 	{
-		this.name = 'Bob';
+		var user = this.user = new UserProfile();
+
+		user.firstName = 'Bob';
+		user.lastName = 'Johnson';
 	}
 }
 
-bootstrap(MyAppComponent);
+bootstrap(MyApplication);
