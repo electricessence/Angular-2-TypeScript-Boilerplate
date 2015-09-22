@@ -3,9 +3,17 @@
 	"version": "1.0.0",
 	"description": "This is a boilerplate for angular-2 and typescript.",
 	"main": "index.js",
-	"dependencies": {},
+	"dependencies": {
+		"angular2": "^2.0.0-alpha.37",
+		"es6-module-loader": "^0.17.7",
+		"systemjs": "^0.19.0",
+		"traceur": "0.0.91"
+	},
 	"devDependencies": {
 		"tsd": "^0.6.0"
+	},
+	"scripts": {
+		"install": "tsd install"
 	},
 	"repository": {
 		"type": "git",
